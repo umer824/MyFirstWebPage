@@ -1,16 +1,25 @@
 body {
-    background: #00D4FF;
-    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(29, 29, 191, 1) 60%, rgba(13, 49, 133, 1) 100%);
+    
+background: linear-gradient(to right, #6190e8, #a7bfe8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h1 {
-    background-color: #471414;
-    color: #95c8e6;
+
+    color: #030438de;
     font-size: 100;
+    font-family: "Pacifico", cursive ;
+    text-align: center;
+    text-decoration: underline;
 }
 
 p {color: #471414;
-    background-color: bisque;
-    font-size: large;
-    font-style: inherit
+    font-family: "Smooch Sans", sans-serif;
+    text-align: center;
+    
+}
+img{
+    height:100px ;
+    width: 100px; ;
+    align-items: center;
+display: flex;
 }
